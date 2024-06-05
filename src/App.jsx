@@ -1,7 +1,12 @@
+import SearchComponent from './components/search';
+
 function App() {
+    const items = ['hhhh', 'anglais', 'gda', 'audry', 'jule', 'david', 'balavane', 'daniel'];
+
     return (
         <div>
-            <h2>Most visited wikimedia articles</h2>
+            <h1>Recherchez dans la liste</h1>
+            <SearchComponent items={items} />
         </div>
     );
 }
